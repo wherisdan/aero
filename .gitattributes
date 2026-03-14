@@ -1,0 +1,13 @@
+# Ensure consistent text handling across OSes
+* text=auto
+
+# Force LF for Rust and common text files
+*.rs text eol=lf
+*.toml text eol=lf
+Cargo.toml text eol=lf
+*.md text eol=lf
+
+# Keep binary files as-is
+*.png binary
+*.jpg binary
+*.exe binary
